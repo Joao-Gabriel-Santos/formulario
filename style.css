@@ -53,6 +53,10 @@ input, textarea, select {
     font-size: 16px;
 }
 
+#satisfacao {
+    padding: 0px;
+}
+
 form > input#bottom{
     color: black;
     font-weight: bold;
