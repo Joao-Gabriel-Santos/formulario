@@ -40,9 +40,7 @@ option {
     font-family: var(--font_padrao);
     color: black;
 }
-select > option{
-    color: black;
-}
+
 p, legend{
     color: white;
 }
@@ -50,7 +48,7 @@ p, legend{
 input, textarea, select {
     background-color: rgb(228, 228, 228);
     padding: 5px;
-    
+    touch-action: none;
 }
 
 form > input#bottom{
